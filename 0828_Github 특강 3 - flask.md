@@ -249,6 +249,25 @@
 
   <br>
 
+#### Commit에 Tag 달기
+
+- git tag : tag 조회하기
+- git tag  -a (annotated) TAG_NAME -m (msg) "설명" (커밋해시 5자리)
+- git tag -d TAG_NAME : TAG 삭제
+- git checkout TAG_NAME : TAG_NAME을 가진 commit으로 이동
+
+  ![1566973953353](C:\Users\student\AppData\Roaming\Typora\typora-user-images\1566973953353.png)
+
+<br>
+
+#### 나눠서 Commit 하기
+
+![1566973636546](C:\Users\student\AppData\Roaming\Typora\typora-user-images\1566973636546.png)
+
+- 스냅샷을 따로 찍고 싶으면 add - commit을 따로!
+
+![1566973953353](C:\Users\student\AppData\Roaming\Typora\typora-user-images\1566973953353.png)
+
 --------------
 
 #### git 공부하기 유용한 사이트
@@ -262,15 +281,3 @@
 - JSON Viewer : https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=ko&hc_location=ufi
 
 - Bithumb Open API : https://apidocs.bithumb.com/docs/ticker
-
-- 
-
-  |                       | >                                                            |
-| --------------------- | ------------------------------------------------------------ |
-  | JSON Viewer           | <https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=ko&hc_location=ufi> |
-  |                       | <https://apidocs.bithumb.com/docs/ticker>                    |
-  | 논산훈련소 Tip Github | <https://github.com/krta2/awesome-nonsan>                    |
-  | telegram web          | <https://web.telegram.org>                                   |
-  | telegram api          | https://api.telegram.org/bot<token>/METHOD_NAME              |
-  | telegram sendMessage  | https://api.telegram.org/bot<토큰>/sendMessage?chat_id=<나의chat_id>&text=<내용> |
-  | chatbot 코드          | <https://github.com/edu-john/t4ircc_chatbot>                 |

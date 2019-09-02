@@ -1,10 +1,10 @@
 # 0828_Github 특강 4 - Telegram
 
-------
+- ㅇ
 
 ![1566973636546](C:\Users\student\AppData\Roaming\Typora\typora-user-images\1566973636546.png)
 
-commit 을 순서대로 하고싶을때 , 스냅샷 따로 찍고픔!
+commit 을 순서대로 하고 싶을때 , 스냅샷 따로 찍고픔!
 
 -> add를 따로 따로
 
@@ -74,5 +74,5 @@ mkdir chatbot
 
 
 
-
+telegram web  <https://web.telegram.org>  telegram api  https://api.telegram.org/bot<token>/METHOD_NAME  telegram sendMessage  https://api.telegram.org/bot<토큰>/sendMessage?chat_id=<나의chat_id>&text=<내용>  chatbot 코드  <https://github.com/edu-john/t4ircc_chatbot>
 
